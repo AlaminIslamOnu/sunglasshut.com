@@ -1,0 +1,30 @@
+*{margin: 0;}
+:root {
+    --alignment: center; /* Define a custom property */
+  }
+
+ 
+h2{background-color: aqua;
+    color:chocolate;
+   padding: 20px;
+   height: 200px;
+   width: 100%;
+   font-size: 80px;
+   
+   text-align:center;
+}
+p{background-color: burlywood;
+    color: aliceblue;
+    height: 40px;
+    width: 100%;
+    text-align:center;
+    font-size: 30px;
+}
+h3{background-color:yellow;
+    color:chocolate;
+    padding: 20px;
+   height: 100px;
+   width: 100%;
+   font-size: 80px;
+   text-align:center;
+}
