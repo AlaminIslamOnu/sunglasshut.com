@@ -13,12 +13,15 @@ input{padding: 10px 40px;
      input:focus{
              width: 80%;
      }
-     .main{
-        background-image: url('./swim/boy.svg');
-        
-         background-repeat: no-repeat;
-         background-position: top right;
-         text-align: center;
+    
+     .boy-ring{margin-left: 600px;
+
+     }
+     .img2{
+        position: relative;
+        right:420px;
+        bottom:560px;
+
      }
     
     
