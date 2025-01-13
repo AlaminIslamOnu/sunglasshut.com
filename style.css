@@ -1,10 +1,20 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;}
-:root {
-    --alignment: center; /* Define a custom property */
-  }
 
+  
+input{padding: 10px 40px;
+     border: 2px solid tomato;
+     border-radius: 8px;
+     font-size: 32px;
+     color: black;
+     font-weight: bold;}
+
+     input:focus{
+             width: 80%;
+     }
+    
+    
  
 h2{background-color: darkblue;
     color:white;
@@ -12,7 +22,6 @@ h2{background-color: darkblue;
    height: 200px;
    width: 100%;
    font-size: 80px;
-   
    text-align:center;
 }
 p{background-color: burlywood;
@@ -36,5 +45,14 @@ h3{background-color:yellow;
        color: black;
        border-radius: 8px;}
 
-       .btn:hover{cursor: pointer;
+.btn:hover{cursor: pointer;
                   background: green;}
+
+.btn2{ margin-left: 10px; 
+       padding: 20px;
+       background-color: aliceblue;
+       color: black;
+       border-radius: 8px;
+          } 
+          .btn2:hover{cursor:pointer;
+            background: green;}
